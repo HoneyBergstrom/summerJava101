@@ -25,7 +25,6 @@ public class ränteberäkning {
 
         double capital = startKapital;
 
-
         for(int i =1;i<= years;i++){
             //dont start with startKapital because its going to be the same but capital will change
             capital = capital * (1+interestRate/100);
